@@ -1,1 +1,13 @@
-hive readme
+An experimental boardgame with two types of pieces:
+	diagogs:  move diagonally across the board
+	paragogs: move parallel or perpendicular to the edges of the board
+Each piece has a range of 1-9.
+On each turn, you can either move a piece, or split a piece.
+When moving a piece, you can put it anywhere within range.
+Landing on another piece will capture it and the captured pieces range
+ will be transfered to the piece that captured it.
+When you split a piece, you create a new piece adjacent to the original.
+The new piece will get half of the original pieces range rounded down,
+ and the original piece will be left with half of it's range rounded up.
+
+The objective is to capture all of your opponents pieces.
